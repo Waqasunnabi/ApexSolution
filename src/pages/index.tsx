@@ -18,10 +18,10 @@ export default function Home() {
             </div>
             <ul className="px-10 py-7 flex space-x-3 justify-end">
 
-                <a href="/"><li className="cursor-pointer">Home</li></a>
-                <a href="/Service.html"><li className="cursor-pointer">Service</li></a>
-                <a href="/about.html"><li className="cursor-pointer">About</li></a>
-                <a href="/contact.html"><li className="cursor-pointer">Contact us</li></a>
+                <link href="/"><li className="cursor-pointer">Home</li></link>
+                <link href="/Service.html"><li className="cursor-pointer">Service</li></link>
+                <link href="/about.html"><li className="cursor-pointer">About</li></link>
+                <link href="/contact.html"><li className="cursor-pointer">Contact us</li></link>
 
             </ul>
         </nav>

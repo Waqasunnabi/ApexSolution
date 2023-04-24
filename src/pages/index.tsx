@@ -14,7 +14,7 @@ export default function Home() {
             <div className="flex" >
                 <h1 className="cursor-pointer px-6 py-6 text-2xl">Apex Solution</h1>  
             </div>
-            <ul className="px-10 py-7 flex space-x-3 justify-end">
+            <ul className="px-10 py-7 flex space-x-3 justify-end hidden sm:flex">
 
                 <li className="cursor-pointer hover:text-red-500">Home</li>
                 <li className="cursor-pointer hover:text-red-500">Service</li>

@@ -15,7 +15,7 @@ module.exports = {
       },
     },
     screens: {
-      'sm': '520px',
+      'sm': '580px',
       // => @media (min-width: 640px) { ... }
 
       'laptop': '1024px',

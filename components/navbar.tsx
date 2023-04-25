@@ -36,7 +36,7 @@ const Navbar = () => {
         <ul
           className={`${
             isOpen ? "block" : "hidden"
-          } sm:hidden absolute top-full left-1/2 right-0 bg-black text-white`}
+          } sm:hidden absolute top-full left-1/2 right-0 bg-black text-white h-screen`}
         >
           <Link href="/"><li className="block px-4 py-2 hover:text-red-500">Home</li></Link>
           <Link href="/service"><li className="block px-4 py-2 hover:text-red-500">Service</li></Link>

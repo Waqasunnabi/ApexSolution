@@ -1,13 +1,13 @@
-import { PropsWithChildren } from 'react'; // Import PropsWithChildren type from react
-import Navbar from "./navbar"; // Import Navbar component
+import { PropsWithChildren } from 'react';
+import Navbar from './navbar';
 
-const Layout = ({ children }: PropsWithChildren) => { // Destructure children from PropsWithChildren type
+const Layout = ({ children }: PropsWithChildren) => {
   return (
-    <> {/* React fragment shorthand */}
-      <Navbar /> {/* Render Navbar component */}
-      {children} {/* Render children */}
+    <>
+      <Navbar/>
+      {children}
     </>
   );
 };
 
-export default Layout; // Export Layout component as default
+export default Layout;

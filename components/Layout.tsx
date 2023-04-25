@@ -1,4 +1,4 @@
-import React, { PropsWithChildren } from "react";
+import { PropsWithChildren } from 'react';
 import Navbar from "./navbar";
 
 const Layout = ({ children }: PropsWithChildren) => {

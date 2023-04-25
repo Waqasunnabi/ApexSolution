@@ -1,4 +1,6 @@
+import React, { PropsWithChildren } from "react";
 import Navbar from "./navbar";
+
 const Layout = ({ children }: PropsWithChildren) => {
   return (
     <>
@@ -7,4 +9,5 @@ const Layout = ({ children }: PropsWithChildren) => {
     </>
   );
 };
+
 export default Layout;

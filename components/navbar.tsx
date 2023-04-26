@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <>
       <div className="py-1"></div>
-      <nav className="bg-black text-white fixed left-0 right-0 flex justify-between items-center px-6 py-4 z-50">
+      <nav className="bg-gray-900 text-white rounded-md left-0 flex justify-between items-center px-6 py-4">
         <div className="flex items-center">
           <h1 className="cursor-pointer text-2xl">Apex Solution</h1>
           <button
@@ -49,10 +49,7 @@ const Navbar = () => {
           <Link href="/about"><li className="cursor-pointer hover:text-red-500">About</li></Link>
           <Link href="/contact"><li className="cursor-pointer hover:text-red-500">Contact us</li></Link>
         </ul>
-      </nav>
-      <div className="mt-16"> {/* Add margin to push content down */}
-        {/* Your page content here */}
-      </div>
+        </nav>
     </>
   );
 };
